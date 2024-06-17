@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Web Wizard - A Digital Marketing Agency Website - Using Bootstrap : v5.3
+    </title>
+
+    <!-- BOOTSTRAP FILE LINK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONT FILE LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWSOME FILE LINK -->
+    <script
+      src="https://kit.fontawesome.com/503caa062b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- WEBSITE ICON FILE LINK -->
+    <link rel="Website Icon" href="Images/wizard.png" type="png" />
+    <!-- CUSTOM STYLE FILE -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="navigation-bar">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand fw-bold fs-3" href="#navigation-bar">
+            <img src="Images/wizard.png" width="40" alt="">
+            Web Wizard</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-6" aria-current="page" href="#hero-section"
+                  >Welcome</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#card-items">Our Work</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fs-6"
+                  href="#pricing"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item fs-6" href="#">Web Design & Dev</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item fs-6" href="#"
+                      >Mobile App Design & Dev</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item fs-6" href="#"
+                      >E-Commerce Solutions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item fs-6" href="#">SEO Optimization</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item fs-6" href="#"
+                      >Social Media Marketing (SMM)</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#bottom-bar">Reach Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+      <!-- hero section -->
+      <section id="hero-section">
+        <div class="container my-5 py-5">
+          <div class="row align-items-center">
+            <div class="col left-part">
+              <h3 class="fs-3 text-uppercase title">Welcome To</h3>
+              <h1 class="fs-1 fw-bold heading-text">Digital Marketing</h1>
+              <h1 class="fs-1 fw-bold heading-text">Agency</h1>
+              <p class="fs-6 paragraph">
+                We help ambitious businesses like yours generate more profits by
+                building awareness, driving web traffic, connecting with
+                customers growing.
+              </p>
+              <button type="button" class="btn btn-light light-button">
+                Get Started <i class="fa-solid fa-circle-arrow-right"></i>
+              </button>
+            </div>
+            <div class="col">
+              <img
+                src="Images/hero-image.png"
+                class="img-fluid"
+                alt="hero-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- card-section -->
+      <section id="card-items">
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">What We Do</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature text-center col py-5 border rounded">
+              <div class="feature-icon bg-gradient">
+                <img
+                  class="card-icons mb-5"
+                  src="Images/broadcast_5076031.png"
+                  alt="online-marketing"
+                />
+              </div>
+              <h2>Online Marketing</h2>
+              <p>
+                Get high rankings with multi-team collaboration that will help
+                you optimize off-page SEO.
+              </p>
+            </div>
+            <div class="feature text-center col py-5 border rounded">
+              <div class="feature-icon bg-gradient">
+                <img
+                  class="card-icons mb-5"
+                  src="Images/analytics_294968.png"
+                  alt="online-marketing"
+                />
+              </div>
+              <h2>Data Analysis</h2>
+              <p>
+                Get high rankings with multi-team collaboration that will help
+                you optimize off-page SEO.
+              </p>
+            </div>
+            <div class="feature text-center col py-5 border rounded">
+              <div class="feature-icon bg-gradient">
+                <img
+                  class="card-icons mb-5"
+                  src="Images/online-target_15268043.png"
+                  alt="online-marketing"
+                />
+              </div>
+              <h2>SEO Optimization</h2>
+              <p>
+                Get high rankings with multi-team collaboration that will help
+                you optimize off-page SEO.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about us section -->
+      <section id="about-section">
+        <div class="container">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="Images/marketing16.jpg"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h3>About Us</h3>
+              <h1 class="display-5 fw-bold lh-1 mb-3">
+                Everything Starts With A Marketing Agency.
+              </h1>
+              <p class="lead">
+                Seoland agency makes it easy to create content that engages your
+                audience by taking the guesswork out of research, strategy, and
+                writing.
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-lg px-4 me-md-2"
+                >
+                  Discover More
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- marquee-text -->
+      <section id="marquee-text">
+        <div class="container-fluid">
+          <marquee behavior="smooth" direction="left">
+            <h1>Limited Offer!! 20% OFF for our new customers</h1>
+          </marquee>
+        </div>
+      </section>
+
+      <!-- pricing -->
+      <div id="pricing" class="container">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal">Pricing</h1>
+          <p class="fs-5 text-muted">
+            Unbeatable Pricing Find Your Perfect Plan Now
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $0<small class="text-muted fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $15<small class="text-muted fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div
+                class="card-header py-3 text-white bg-primary border-primary"
+              >
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-muted fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- blog  -->
+      <section id="blog-section">
+        <div class="container my-5">
+          <h2 class="pb-2 border-bottom">Blog Post</h2>
+          <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+              <h1 class="display-4 fst-italic">
+                Latest News & Articles
+              </h1>
+              <p class="lead my-3">
+                Our campaigns get your business in front of the right people at the right time to increase organic traffic and boost engagement.
+              </p>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary"
+                    >Marketing</strong
+                  >
+                  <h3 class="mb-0">Simple ways to Optimize Website For SEO</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">
+                    SEO Grow Your Business with Our SEO Agency on the search engine's results page,...
+                  </p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                  
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success"
+                    >Digital Agency</strong
+                  >
+                  <h3 class="mb-0">How Chatbots Can Help You Drive More Sales</h3>
+                  <div class="mb-1 text-muted">Nov 21</div>
+                  <p class="mb-auto">
+                    SEO Grow Your Business with Our SEO Agency on the search engine's results page,...
+                  </p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main -->
+
+    <!-- footer -->
+     <footer>
+        <section id="bottom-bar">
+            <div class="container">
+                <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                    <div class="row">
+                      <div class="col-12 col-md">
+                        <img class="mb-2" src="Images/wizard.png" alt="" width="24" height="19"> Web Wizard
+                        <small class="d-block mb-3 text-muted">© 2023-2024</small>
+                      </div>
+                      <div class="col-6 col-md">
+                        <h5>Contact Web Wizard</h5>
+                        <ul class="list-unstyled text-small">
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Ghaziabad, Uttar Pradesh
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z"/>
+                                <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                              </svg>
+                          </a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"><a href="mailto:sgarvit2311@gmail.com">sgarvit2311@gmail.com</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                              </svg>
+                          </a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">
+                            <a href="telto:7303371090">+91 7303371090</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                              </svg>
+                          </a></li>
+                          
+                        </ul>
+                      </div>
+                      <div class="col-6 col-md">
+                        <h5>Company</h5>
+                        <ul class="list-unstyled text-small">
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">About Us</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Price Table</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Servce One</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team Member</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-6 col-md">
+                        <h5>Our Services</h5>
+                        <ul class="list-unstyled text-small">
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">SEO Marketing</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Content Marketing</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Digital Marketing</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Email Marketing</a></li>
+                          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Marketing Strategy</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </footer>
+            </div>
+        </section>
+        <div class="container">
+            <footer class="blog-footer">
+                <p>Developed By Garvit Sharma</p>
+                <p>
+                  <a href="#navigation-bar">Back to top</a>
+                </p>
+              </footer>
+        </div>
+     </footer>
+    <!-- BOOTSTRAP FILE SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
